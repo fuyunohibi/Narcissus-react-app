@@ -1,0 +1,37 @@
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+@keyframes text-animation {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.loading-text {
+  font-family: monospace;
+  white-space: pre;
+  font-size: 16px;
+  color: #960018;
+  animation: text-animation 8s infinite; /* Adjust the animation duration */
+}
+
+.loading-logo {
+  font-family: monospace;
+  white-space: pre;
+  font-size: 14px;
+  color: #960018;
+  animation: text-animation 12s infinite; /* Adjust the animation duration */
+}
